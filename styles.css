@@ -1,0 +1,43 @@
+.box-container{
+    gap:2rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top: 1.5rem;
+  }
+  .box-grid{
+    display:grid;
+    place-items: start;
+    grid-template-columns: 50px 50px 50px;
+    gap: 20px;
+    grid-template-areas: 
+      "one two three"
+      "four four four"
+      "five six seven"
+  } 
+  .box{
+     width: 50px;
+     height: 50px;
+     border: 1px solid black;
+  }
+  .box1{
+    grid-area: one;
+  }
+  .box2{
+    grid-area: two;
+  }
+  .box3{
+    grid-area: three;
+  }
+  .box4{
+    grid-area: four;
+  }
+  .box5{
+    grid-area: five;
+  }
+  .box6{
+    grid-area: six;
+  }
+  .box7{
+    grid-area: seven;
+  }
